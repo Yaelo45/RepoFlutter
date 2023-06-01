@@ -1,4 +1,5 @@
-import 'package:ejemplo1_flutter/pages/home_page.dart';
+import 'package:contador/pages/intro.dart';
+import 'package:contador/pages/sesion.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -8,8 +9,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Material App',
-      home: HomePage(),
-      
+      debugShowCheckedModeBanner: false,
+      home: IntroPage(),
     );
   }
 }

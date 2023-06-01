@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.ejemplo1_flutter">
+    package="com.example.contador">
    <application
-        android:label="ejemplo1_flutter"
+        android:label="contador"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
